@@ -14,7 +14,6 @@ public class Produto {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
-    @JsonFormat(pattern="yyyy-MM-dd")
     private Date dataCadastro;
 
     public Produto() {
